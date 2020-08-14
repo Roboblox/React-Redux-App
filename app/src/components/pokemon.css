@@ -1,0 +1,45 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: cornflowerblue;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  width: 10rem;
+
+  margin: 2rem;
+  border: solid black 3px;
+  background-color: #fff;
+  -webkit-animation: random 5s infinite;
+  animation: random 5s infinite;
+}
+@keyframes random {
+  15% {
+    background-color: red;
+  }
+  30% {
+    background-color: yellow;
+  }
+  45% {
+    background-color: green;
+  }
+  60% {
+    background-color: blue;
+  }
+  75% {
+    background-color: white;
+  }
+}
